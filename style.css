@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .inter{
     color: rgb(230, 83, 60);
     font-family: Inter;
@@ -86,7 +88,7 @@ header{
     width: 599.05px;
     height: 440px;
     left: 190px;
-    top: 60px;
+    top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -96,11 +98,12 @@ header{
 .Get-Body{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 78px;
+    font-size: 85px;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 145px;
 }
 
 
@@ -168,7 +171,7 @@ header{
     width: 349px;
     height: 580px;
     left: 877px;
-    top: 135px;
+    top: 220px;
 }
 .box1{
     position: absolute;
@@ -311,6 +314,7 @@ header{
     align-items: center;
     padding: 0px;
     text-align: center;
+    margin-top: 140px;
 }
 .section2img{
     position: relative; 
@@ -325,6 +329,7 @@ header{
 }
 .img1>img,.img2>img,.img3>img,.img4>img{
     border-radius: 100px;
+    border: 1px solid white;
 }
 .section2img>h3{
     color: rgb(255, 255, 255);
@@ -444,6 +449,56 @@ header{
     background: rgb(34, 34, 34);
     height: 487px;
 }
+.BMIUtext{
+    margin-bottom: 50px;
+}
+.BMIUtext>h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    position: static;
+    width: 353px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 14px 0px;
+    margin-left: 400px;
+}
+.BMIUtext>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    position: static;
+    width: 353px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 14px 0px;
+    margin-left: 400px;
+
+}
 .BMILeft, .BMIright{
     width: 50%;
 }
@@ -459,13 +514,13 @@ header{
     margin-top: 55px;
 }
 .BMILeft>h3{
-    padding-left: 200px;
+    padding-left: 0px;
 }
 .BMILeft>table{
     position: relative;
     width: 310px;
     height: 216px;
-    left: 265px;
+    left: 170px;
     right: 941px;
     top: 20px;
     bottom: 133px;
@@ -501,7 +556,7 @@ header{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
-    text-align: left;
+    text-align: center;
 }
 .form-container {
     padding: 20px;
@@ -883,6 +938,8 @@ footer {
         line-height: 120%;
         letter-spacing: 0%;
         text-align: left;
+        margin-top: 30px;
+        height: 220px;
     }
     .banner-left>p{
         color: rgba(255, 255, 255, 0.5);
@@ -892,6 +949,7 @@ footer {
         line-height: 24px;
         letter-spacing: 0.5px;
         text-align: left;
+       
     }
     .btn1{
         position: relative;
@@ -1042,25 +1100,19 @@ footer {
         padding-left: 270px;
         width: 425px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .section2 {
+        position: relative;
+        width: 425px;
+        height: 452px;
+        left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+        top: 500px;
+        text-align: center;
+    }
     .section2img {
         position: relative;
         width: 1011px;
@@ -1113,77 +1165,152 @@ footer {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
+        height: 800px;
     }
-    
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    .section2 {
-        position: relative;
-        width: 425px;
-        height: 452px;
-        left: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 0px;
-        top: 500px;
-        text-align: center;
+    .BMIUtext>h3 {
+        margin-left: 30px;
+    }
+    .BMIUtext>p {
+        margin-left: 30px;
+    }
+    .BMILeft>h3 {
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    .BMILeft>table{
+        left: 40px;
+    }
+    .meetourteam {
+        width: 100%;
+        margin: 40px 0px;
+        height: 1540px;
     }
 
+    .meetourteam > h3 {
+        font-size: 28px;
+        left: 0;
+        margin: 10px 0;
+    }
 
+    .meetourteam > p {
+        font-size: 12px;
+        left: 0;
+        line-height: 20px;
+        margin: 0px 10px;
+    }
 
+    .meetbg {
+        width: 80%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+        left: 0;
+        margin: 0;
+        border-radius: 12px;
+        margin-top: 20px;
+    }
 
+    .t1, .t2, .t3, .t4, .t5, .t6 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        border-radius: 12px;
+    }
 
+    .t1 > h4, .t2 > h4, .t3 > h4, .t4 > h4, .t5 > h4, .t6 > h4 {
+        font-size: 20px;
+        padding-top: 150px;
+        padding-left: 15px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .t1 > p, .t2 > p, .t3 > p, .t4 > p, .t5 > p, .t6 > p {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .our-courses {
+        padding: 20px 10px;
+    }
 
     .courses-header h2 {
         font-size: 24px;
+        margin-bottom: 10px;
     }
 
     .courses-header p {
         font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .courses-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 
     .course-card {
         padding: 15px;
     }
 
+    .course-card img {
+        height: auto;
+        max-height: 200px;
+        margin-bottom: 10px;
+    }
+
     .course-card h3 {
         font-size: 18px;
+        margin-bottom: 8px;
     }
 
     .course-card p {
+        font-size: 12px;
+    }
+    footer {
+        padding: 20px 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer-logo {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo h2 {
+        font-size: 40px;
+        margin-left: 130px;
+    }
+
+    .footer-logo p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-links {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-links h3 {
+        font-size: 24px;
+    }
+
+    .footer-links ul li a {
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .footer-bottom p {
         font-size: 12px;
     }
 }
